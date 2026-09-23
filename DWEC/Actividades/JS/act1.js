@@ -9,8 +9,10 @@
     var numeroMayor;
 
     if (numero1 < numero2) {
-     numeroMayor = numero2;
+        console.log("El numero " + numero2 + " es mayor que el numero " + numero1);
+    } else if(numero1 == numero2){
+     console.log("Ambos numeros son iguales");
     } else {
-     numeroMayor = numero1;
+        console.log("El numero " + numero1 + " es mayor que el numero " + numero2);
     }
 }
