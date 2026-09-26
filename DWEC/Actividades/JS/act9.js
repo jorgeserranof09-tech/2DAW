@@ -8,24 +8,24 @@
     let numero2 = parseInt(prompt("Dime un segundo numero"));
     let operador = prompt("Introduce el operador (+, -, *, /):");
 
-        calcular(numero1, numero2, operador);
+    console.log(calcular(numero1, numero2, operador));
 
 
     function calcular(num1, num2, operador) {
         let resultado = 0;
         switch (operador) {
             case "+":
-                resultado = parseInt(num1 + num2);
-                break
+                return parseInt(num1 + num2);
+               
             case "-":
-                resultado = parseInt(num1 - num2);
-                break
+                return parseInt(num1 - num2);
+             
             case "*":
-                resultado = parseInt(num1 * num2);
-                break
+                return parseInt(num1 * num2);
+             
             case "/":
-                resultado = parseInt(num1 / num2);
-                break
+                return parseInt(num1 / num2);
+             
             default:
                 return "Operador no válido";
         }
