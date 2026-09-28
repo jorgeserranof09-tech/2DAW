@@ -1,0 +1,20 @@
+let s = "Hoy parece que LLOVERA"
+
+s.indexOf("L",16); //El numero indica desde que posición quiero que empieze a buscar 
+s.indexOf("L");  //Empieza a buscar desde la primera posición
+
+s.indexLastIndexOf("E")
+s.indexLastIndexOf("e",12);
+
+
+s.replace("L","H"); //Reemplaza la primera que encuentre
+s.replaceAll("L","H");  //Reemplaza todas
+
+
+let cadena = "No creo que llueva:talvez si";
+cadena.split(":") //me devuelve un array a partir de un caracter que yo le paso como parametro, me da lo anterior y posterior
+
+//resultado [0]No creo que llueva,[1]talvez si;
+
+
+<script>src="./js"
