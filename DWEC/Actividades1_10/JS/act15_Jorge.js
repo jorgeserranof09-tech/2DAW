@@ -1,6 +1,11 @@
 "use strict"
 {
 
+    // Indica si un NIF es válido o no.
+
+
+
+    //Un ID es valido cuando tenga 9 caracteres, y 8 sean numeros y el ultimo una letra
     console.log(validarNif("97880588J"));
 
     function validarNif(NIF) {

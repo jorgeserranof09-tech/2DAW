@@ -1,9 +1,11 @@
 "use strict" 
 {
 
+    // Programa una función para convertir grados Celsius a Fahrenheit y viceversa, pe.
+    // miFuncion(0,"C") devolverá 32°F
+    
+
     console.log(convertirgrados(0,'F'));
-
-
 
     function convertirgrados(numero,tipo) {
 
