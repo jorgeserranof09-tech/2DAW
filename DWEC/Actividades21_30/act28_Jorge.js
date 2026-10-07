@@ -10,7 +10,6 @@
             corta = vector[i];
         }
     }
-
     console.log(`Cadena mas corta ${corta}`);
 
 
@@ -22,7 +21,6 @@
             larga = vector[i];
         }
     }
-
     console.log(`Cadena mas larga ${larga}`);
 
 
@@ -38,7 +36,6 @@
 
     for (let i = 1; i < vector.length; i++) {
         let contadorA = 0;
-
         for (let j = 0; j < vector[i].length; j++) {
             if (vector[i][j] === "a") {
                 contadorA++;
@@ -49,7 +46,6 @@
             cadenaMasA = vector[i];
         }
     }
-
     console.log(`Cadena con mas letras A ${cadenaMasA}`);
 
 
@@ -61,7 +57,6 @@
             cadenasConB.push(vector[i]);
         }
     }
-
     console.log(`Cantidad de cadenas con b ${cadenasConB.length}`);
     console.log(`Cadenas cadenasConB`);
 }

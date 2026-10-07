@@ -1,5 +1,8 @@
 "use strict"
 {
+    //Programa una función para convertir números de base binaria a decimal y viceversa, pe.
+    //miFuncion(100,2) devolverá 4 base 10
+
     let convertirBinarioODecimal = (numero, base) => {
         if (base === 2) {
             return parseInt(numero, 2);
