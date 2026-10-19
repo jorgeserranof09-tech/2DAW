@@ -13,7 +13,7 @@
     function calcularFactorial(numero) {
         let respuesta = 1;
         for(let i = numero; i > 1; i--) {
-            respuesta = numero*respuesta;
+            respuesta = i*respuesta;
         }
         return respuesta;
     }
@@ -33,5 +33,6 @@
 
         return resultado;
     }
+
 
 }
