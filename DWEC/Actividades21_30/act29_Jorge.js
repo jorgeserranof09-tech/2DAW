@@ -11,6 +11,6 @@
         }
     };
 
-    console.log(convertirBinarioODecimal("100", 2)); 
-    console.log(convertirBinarioODecimal(4, 10));    
+    console.log("Decimal:" + convertirBinarioODecimal("100", 2)); 
+    console.log("Binario:" + convertirBinarioODecimal(4, 10));    
 }

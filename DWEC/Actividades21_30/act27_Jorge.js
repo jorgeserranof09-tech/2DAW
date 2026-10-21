@@ -24,8 +24,9 @@
 
         console.log(`Hay ${pares} pares y ${impares}`);
     }
+    console.log(paresImpares(vector));
 
-
+    
     //APARTADO C:  La suma de todos los números negativos.
     let sumaNegativos = 0;
 
@@ -100,6 +101,11 @@
 
     //APARTADO H: El número menor.
     let menor = vector[0];
+    for (let elem of vector) {
+        if (elem < menor) {
+            menor = elem;
+        }
+    }
 
     for (let i = 1; i < vector.length; i++) {
         if (vector[i] < menor) {

@@ -4,11 +4,13 @@
     //un sentido que en otro), pe. miFuncion(2002) devolverá true.
 
     console.log(identificarCapicua(12));
+    console.log(identificarCapicua(202));
 
     function identificarCapicua(numero) {
-        let numeroInvertido = invertirNumero(numero);
+        let numeroInt = parseInt(numero);
+        let numeroInvertido = parseInt(numeroInt.toString().split("").reverse().join(""), 10);
 
-        if ((numero) === numeroInvertido) {
+        if (numeroInt === numeroInvertido) {
             return true
         } else {
             return false;
@@ -18,9 +20,4 @@
 
 
 
-    function invertirNumero(numero) {
-        let numeroInvertido = parseInt(numero.toString().split("").reverse().join(""), 10);
-        return numeroInvertido;
-
-    }
 }
