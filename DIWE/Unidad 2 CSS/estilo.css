@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: blueviolet;
+}
+
+p:ntn-child(2n) {
+    background-color: green;
+
+}
