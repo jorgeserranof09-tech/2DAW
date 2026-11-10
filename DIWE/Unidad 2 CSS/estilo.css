@@ -4,7 +4,7 @@
     background-color: blueviolet;
 }
 
-p:ntn-child(2n) {
+p:nth-child(2n) {
     background-color: green;
 
 }
