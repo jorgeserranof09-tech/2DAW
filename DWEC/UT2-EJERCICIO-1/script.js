@@ -18,7 +18,7 @@ let lista = document.createElement("ul");
 document.body.append(boton, separador,separador2,botonBorrar, lista);
 
 boton.addEventListener("click", function() {
-    let numero = Math.floor(Math.random() * 100) + 1;
+    let numero = Math.floor(Math.random() * 10) + 1;
     let nuevoLi = document.createElement("li");
     nuevoLi.textContent = numero;
     lista.append(nuevoLi);
