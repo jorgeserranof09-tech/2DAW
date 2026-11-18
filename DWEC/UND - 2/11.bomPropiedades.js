@@ -89,7 +89,7 @@ let botonAbrirVentana = document.createElement("button");
 botonAbrirVentana.textContent = "Abrir ventana";
 document.body.append(botonAbrirVentana);
 botonAbrirVentana.addEventListener("click", (event) => {
-    ventana = window.open("https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/hidden")
+    ventana = window.open("https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/hidden ")
 });
 
 
